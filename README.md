@@ -88,4 +88,10 @@ npm run build
 npm test
 ```
 
+Так тоже прокатывает:
+
+````bash
+yarn test
+````
+
 For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
