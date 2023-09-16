@@ -1,21 +1,12 @@
 ## Простой проект для пробы возможностей Vue
-### Тестирование, сборка и запуск с npm:
 
-``` bash
-# install dependencies
-npm install
+### Тестирование, сборка и запуск
 
-# build for production with minification
-npm run build
+Установка:
 
-# run tests
-npm test
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
-
-### Через yarn:
+````bash
+yarn install
+````
 
 Тесты:
 
