@@ -1,5 +1,6 @@
+// 'boot message' значение при загрузке. Потом меняется методом MessageToggle1.toggleMessage().
 <template>
-  <h1> {{ msg || 'default message' }}</h1>
+  <h1> {{ msg || 'boot message' }}</h1>
 </template>
 
 <script>
