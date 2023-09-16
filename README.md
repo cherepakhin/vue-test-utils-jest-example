@@ -34,7 +34,7 @@ yarn run dev
 ![screen](doc/screen.png)
 
 >[!NOTE]
-Для тестирования используется [jest](https://jestjs.io/ru/). [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
+Для тестирования используется [Jest](https://jestjs.io/ru/). [Docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
 
 >[!NOTE]
 >## Примечания о vue-test-utils-jest-example
