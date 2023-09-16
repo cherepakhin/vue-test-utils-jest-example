@@ -102,6 +102,10 @@ yarn test
 yarn run dev
 ````
 
+Экран программы:
+
+![screen](doc/screen.png)
+
 >[!NOTE]
 Для тестирования используется [jest](https://jestjs.io/ru/)
 
