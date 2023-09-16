@@ -37,7 +37,7 @@ All files          |      100 |    61.54 |      100 |      100 |                
 
 ![coverage](doc/coverage.png)
 
-Подключен в package.json
+Coverage подключен в package.json:
 
 ````json
 "jest": {
