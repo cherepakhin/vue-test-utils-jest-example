@@ -94,17 +94,17 @@ For detailed explanation on how things work, consult the [docs for vue-test-util
 >
 >To apply these options only for tests, we need to add a separate config under `env.>test` (this will be automatically picked up by `babel-jest`):
 >
-````json
-{
-  "presets": [
-    ["env", { "modules": false }]
-  ],
-  "env": {
-    "test": {
-      "presets": [
-        ["env", { "targets": { "node": "current" }}]
-      ]
-    }
-  }
-}
-````
+>````json
+>{
+>  "presets": [
+>    ["env", { "modules": false }]
+>  ],
+>  "env": {
+>    "test": {
+>      "presets": [
+>        ["env", { "targets": { "node": "current" }}]
+>      ]
+>    }
+>  }
+>}
+>````
