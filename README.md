@@ -1,6 +1,44 @@
-# THIS REPOSITORY IS DEPRECATED
+### Тестирование, сборка и запуск с npm:
 
-> Note: This example is outdated. It's now recommended to scaffold your project with [Vue CLI 3](https://cli.vuejs.org/) which provides out-of-the-box configurations for unit testing.
+``` bash
+# install dependencies
+npm install
+
+# build for production with minification
+npm run build
+
+# run tests
+npm test
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
+
+### Через yarn:
+
+Тесты:
+
+````bash
+yarn test
+````
+
+Запуск:
+
+````bash
+yarn run dev
+````
+
+Экран программы:
+
+![screen](doc/screen.png)
+
+>[!NOTE]
+Для тестирования используется [jest](https://jestjs.io/ru/)
+
+For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
+
+>[!NOTE]
+Примечания:
 
 # vue-test-utils-jest-example
 
@@ -71,42 +109,3 @@ To apply these options only for tests, we need to add a separate config under `e
   }
 }
 ```
-
-### Тестирование, сборка и запуск с npm:
-
-``` bash
-# install dependencies
-npm install
-
-# build for production with minification
-npm run build
-
-# run tests
-npm test
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
-
-### Через yarn:
-
-Тесты:
-
-````bash
-yarn test
-````
-
-Запуск:
-
-````bash
-yarn run dev
-````
-
-Экран программы:
-
-![screen](doc/screen.png)
-
->[!NOTE]
-Для тестирования используется [jest](https://jestjs.io/ru/)
-
-For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
