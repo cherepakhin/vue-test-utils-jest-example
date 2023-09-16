@@ -38,7 +38,7 @@ yarn run dev
 For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
 
 >[!NOTE]
-># Примечания:
+>## Примечания:
 ># vue-test-utils-jest-example
 >
 > Example project using Jest + vue-test-utils together
