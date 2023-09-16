@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <message-toggle1/>
+    <message-toggle/>
     <list :items="['list item 1', 'listen item 2']" />
   </div>
 </template>
 
 <script>
-import MessageToggle1 from '@/components/MessageToggle1.vue'
+import MessageToggle from '@/components/MessageToggle.vue'
 import List from '@/components/List.vue'
 
 export default { // экспортирует components (MessageToggle с name='message-toggle') в template
@@ -14,7 +14,7 @@ export default { // экспортирует components (MessageToggle с name='
     // в MessageToggle "export default {name='message-toggle'}" НЕ РАБОТАЕТ.
     // Имя {name: 'message-toggle'} закоммичено.
     // Используемое имя <message-toggle1/> в template сконвертировано из имени файла MessageToggle1.
-    MessageToggle1,
+    MessageToggle,
     List
   }
 }

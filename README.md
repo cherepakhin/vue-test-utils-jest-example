@@ -72,26 +72,34 @@ To apply these options only for tests, we need to add a separate config under `e
 }
 ```
 
-### Build Commands
+### Тестирование, сборка и запуск с npm:
 
 ``` bash
 # install dependencies
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
 
 # build for production with minification
 npm run build
 
 # run tests
 npm test
+
+# serve with hot reload at localhost:8080
+npm run dev
 ```
 
-Так тоже прокатывает:
+### Через yarn:
+
+Тесты:
 
 ````bash
 yarn test
+````
+
+Запуск:
+
+````bash
+yarn run dev
 ````
 
 For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
