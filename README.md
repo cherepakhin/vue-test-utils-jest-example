@@ -39,7 +39,6 @@ For detailed explanation on how things work, consult the [docs for vue-test-util
 
 >[!NOTE]
 Примечания:
-
 # vue-test-utils-jest-example
 
 > Example project using Jest + vue-test-utils together
