@@ -44,21 +44,21 @@ For detailed explanation on how things work, consult the [docs for vue-test-util
 > Example project using Jest + vue-test-utils together
 >
 >This is based on the `vue-cli` `webpack-simple` template. Test-specific changes include:
-
-### Additional Dependencies
-
-- `vue-test-utils`
-- `jest`
-- `babel-jest` (for ES2015+ features in tests)
-- `vue-jest` (for handling `*.vue` files in tests)
-- `jest-serializer-vue` (for snapshot tests)
-
-### Additional Configuration
-
-#### `package.json`
-
-The following configurations are recommended for Jest:
-
+>
+>### Additional Dependencies
+>
+>- `vue-test-utils`
+>- `jest`
+>- `babel-jest` (for ES2015+ features in tests)
+>- `vue-jest` (for handling `*.vue` files in tests)
+>- `jest-serializer-vue` (for snapshot tests)
+>
+>### Additional Configuration
+>
+>#### `package.json`
+>
+>The following configurations are recommended for Jest:
+>
 ``` js
 {
   "jest": {
@@ -85,16 +85,16 @@ The following configurations are recommended for Jest:
   }
 }
 ```
-
-#### `.babelrc`
-
-Our default Babel config disables ES modules transpilation because webpack already knows how to handle ES modules. However, we do need to enable it for our tests because Jest tests are run directly in Node.
-
-Also, if our tests are run in a relatively newer version of Node, most of the ES features are already supported - we can tell `babel-preset-env` to target the Node version we are using. This skips transpiling unnecessary features and makes our tests boot faster.
-
-To apply these options only for tests, we need to add a separate config under `env.test` (this will be automatically picked up by `babel-jest`):
-
-``` json
+>
+>#### `.babelrc`
+>
+>Our default Babel config disables ES modules transpilation because webpack already >knows how to handle ES modules. However, we do need to enable it for our tests because >Jest tests are run directly in Node.
+>
+>Also, if our tests are run in a relatively newer version of Node, most of the ES >features are already supported - we can tell `babel-preset-env` to target the Node >version we are using. This skips transpiling unnecessary features and makes our tests >boot faster.
+>
+>To apply these options only for tests, we need to add a separate config under `env.>test` (this will be automatically picked up by `babel-jest`):
+>
+````json
 {
   "presets": [
     ["env", { "modules": false }]
@@ -107,4 +107,4 @@ To apply these options only for tests, we need to add a separate config under `e
     }
   }
 }
-```
+````
