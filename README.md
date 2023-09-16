@@ -37,6 +37,17 @@ All files          |      100 |    61.54 |      100 |      100 |                
 
 ![coverage](doc/coverage.png)
 
+Подключен в package.json
+
+````json
+"jest": {
+    "verbose": true,
+    "coverage": true,
+    "coverageReporters": ["lcov", "text"],
+    ...
+}
+````
+
 Запуск:
 
 ````bash
