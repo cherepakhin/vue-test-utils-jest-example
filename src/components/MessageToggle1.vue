@@ -16,7 +16,7 @@ export default {
   // если явно не указано "name"
   // Переименовал файл в MessageToggle1 и в App теперь используется <message-toggle1/> !!!
   // Закомментил name и все-равно работает.!!!
-  // name: 'message-toggle2', // это исходная строка, 
+  // name: 'message-toggle1', // это исходная строка,
   // ее закоментил и компонент MessageToggle1.vue доступен <message-toggle1/>
   data: () => ({
     msg: null
