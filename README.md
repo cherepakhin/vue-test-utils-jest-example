@@ -102,4 +102,7 @@ yarn test
 yarn run dev
 ````
 
+>[!NOTE]
+Для тестирования используется [jest](https://jestjs.io/ru/)
+
 For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
