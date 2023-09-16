@@ -11,8 +11,8 @@ describe('Message', () => {
   })
 
   it('renders default message if not passed a prop', () => {
-    const defaultMessage = 'boot message'
     const wrapper = shallowMount(Message)
+    const defaultMessage = 'boot message'
     expect(wrapper.text()).toBe(defaultMessage)
   })
 })
