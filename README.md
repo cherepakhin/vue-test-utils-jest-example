@@ -1,6 +1,6 @@
-## Простой проект для пробы возможностей Vue
+# Простой проект для пробы возможностей Vue
 
-### Тестирование, сборка и запуск
+## Тестирование, сборка и запуск
 
 Установка:
 
@@ -8,7 +8,7 @@
 yarn install
 ````
 
-Тесты:
+Тесты (использован jest):
 
 ````bash
 yarn test
@@ -34,7 +34,7 @@ yarn run dev
 >
 >This is based on the `vue-cli` `webpack-simple` template. Test-specific changes include:
 >
->### Additional Dependencies
+>## Additional Dependencies
 >
 >- `vue-test-utils`
 >- `jest`
@@ -42,9 +42,9 @@ yarn run dev
 >- `vue-jest` (for handling `*.vue` files in tests)
 >- `jest-serializer-vue` (for snapshot tests)
 >
->### Additional Configuration
+>## Additional Configuration
 >
->#### `package.json`
+>### `package.json`
 >
 >The following configurations are recommended for Jest:
 >
@@ -75,7 +75,7 @@ yarn run dev
 >}
 >```
 >
->#### `.babelrc`
+>### `.babelrc`
 >
 >Our default Babel config disables ES modules transpilation because webpack already >knows how to handle ES modules. However, we do need to enable it for our tests because >Jest tests are run directly in Node.
 >
