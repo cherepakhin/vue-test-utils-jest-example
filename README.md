@@ -70,7 +70,7 @@ yarn dev
 yarn build
 ````
 
-результат в папке dist
+результат в папке dist. В корне есть файл index.html для ручного просмотра результатов, без поднятия web сервера, просто открыв файл в браузере.
 
 >[!NOTE]
 Для тестирования используется [Jest](https://jestjs.io/ru/). [Docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
