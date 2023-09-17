@@ -54,9 +54,23 @@ Coverage подключен в package.json:
 yarn run dev
 ````
 
+или
+
+````bash
+yarn dev
+````
+
 Экран программы:
 
 ![screen](doc/screen.png)
+
+## Сборка
+
+````bash
+yarn build
+````
+
+результат в папке dist
 
 >[!NOTE]
 Для тестирования используется [Jest](https://jestjs.io/ru/). [Docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
